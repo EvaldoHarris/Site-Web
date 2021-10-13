@@ -1,61 +1,125 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html Lang="pt">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./style.css" media="screen" />
-    <title>Pojetos</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--Compativel com Microsoft edge-->
+    <meta name="viewport" content="=width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"href="./style.css" media="screen">
+    <title>Alimentação Saudável</title>
 </head>
-<body background="https://i1.wp.com/help.grandchef.com.br/wp-content/uploads/2020/09/Alimentac%CC%A7a%CC%83o.jpg?resize=582%2C387&ssl=1">
-    <center>
-    <nav id="menu">
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./sucos.html">Sucos</a></li>
-            <li><a href="./doces.html">Doces</a></li>
-            <li><a href="#">Salgados</a></li>
-            <li><a href="./imc.html">IMC</a></li>
-        </ul>
-    </nav>
-</center>
-    <main>
-        <form>
-            <center>
-            <h1>Alimentação saudável</h1>
+
+<body>
+    <header>
+            <h1 class="temaP">Alimentação Saudável</h1>
+            <br>
+            <div>
+            <img src="	https://static.tuasaude.com/media/article/kd/yb/alimentacao-e-saude_40645_l.jpg" >
+            </div>
+                <p class="texto">A alimentação Saudável e equilibrada, rica em proteínas e minerais, acompanhada da práticade atividade física regular, pode trazer diversos benefícios para a saúde, como melhor controle do peso,
+                melhora no rendimento do trabalho, aumento da memória e da concentração, fortalecimento do sistema imunológico e prevenção de doenças</p> 
+                <br>
+                <p class="texto">Assim, para garantir esses benefícios, é importante que a pessoa consuma bastante água durante o dia, evite doces e frituras, reduza o consumo de bebidas alcoólicas e equilibre 
+                            a quantidade de carboidratos, proteínas e gorduras ao longo do dia, podendo ser interessante ter o acompanhamento do nutricionista para garantir que todos as vitaminas e minerais 
+                            essenciais para ao bom funcionamento do corpo estejam sendo consumidos</p>
+                            <br>
+
+                            <table>
+                             
+                                <tr> <td class="texto">° Principais benefícios da alimentação saudável são:</td></tr>                  
+                                <tr> <td class="texto">° Garante mais energia para realizar as atividades do dia a dia e mais disposição para praticar atividade física.</td> </tr>   
+                                <tr> <td class="texto">° Aumento da imunidade.</td> </tr>  
+                                <tr><td class="texto">° Proporciona uma boa noite de sono.</td></tr>
+                                <tr><td class="texto">° Proporciona equilíbrio hormonal.</td></tr>
+                                <tr><td class="texto">° Proporciona maior longevidade</td></tr>
+                            </table>      
+                                
+                            <nav>
+                                <ul>
+                                    <h1 class="tema">Vídeos de Receitas Saudáveis</h1>
+                                    <br>
+                                    <iframe width="640" height="480" src="https://www.youtube.com/embed/fj0pqVskRw8" title="YouTube video player" frameborder="30" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                       <br>
+                                        <iframe width="640" height="480" src="https://www.youtube.com/embed/mCQAl3Mn-6c" title="YouTube video player" frameborder="30" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <br>
+                                        <figcaption Dicas para Café da Manhã e Lanche da tarde Saudáveis></figcaption>
+                                        <li> <a href="#videos"> Vídeos</a></li>
+                                        <article id="videos">
+                                   
+                                      <details>
+                                          <br>
+                                            <summary class="texto">Receitas para uma dieta equilibrada:</summary>
+                                            <p class="texto">Dica para Lanche da Tarde</p>
+                                            <p class="texto"> Dica para almoço e jantar saudável</p>
+                                    </details>
+                                    </article>
+                                     <br>
+                                       
+                                     <h1 class="tema">Músicas para Exercícios</h1>
+                                    <br>
+                                    <iframe width="640" height="480" src="https://www.youtube.com/embed/GClkYOdHcSs" title="YouTube video player" frameborder="30" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <li><a href="#musicas"> Músicas</a></li>
+                                    <article id="musicas"></article>
+                                      <details>
+                                        <p class="texto">Musicas para Exercícios</p>
+                                    </details>
+                                  
+                                   
+                                </ul>  
+                            </nav>         
+                                    
+                            
+
+    </header>           
+                     
+                       <footer>
+                           <h2>Calculadora peso ideal</h2>
+                           <div class="form-row">
+                           <form action="processa.php"method="post">
+                               <fieldset>
+                                   <legend>Nome:</legend>
+                                   <label for="idnome">Nome</label>
+                                   <input class= "form-control" type"text" name="nome" id="idnome" minlength="2" maxlength="6" size="50" required autofocus placeholder="Informe seu nome">
+                               </fieldset>
+   
+                               <fieldset>
+                                   <legend>Digite seu Peso:</legend>
+                                   <label for="">Peso</label>
+                                   <input type="number" name="Peso" id="idPeso" minlength="2" maxlength="6"size = "50" required autofocus placeholder="Informe seu peso">  
+                               </fieldset>
+                               <fieldset>
+                                   <legend>Digite sua Altura:</legend>
+                                   <label for="">Altura</label>
+                                   <input type="number" name="Altura" id="idAltura" maxLength="4" minlength="1" size= "40" required placeholder="Informe sua Altura">
+                               </fieldset>
+                               <input  type="submit" class="btn btn-light" value="Fazer Calculo">
+                               
+                               <input type="reset"  value="Limpar Dados">
+                        </footer>   
+                           </form>
+                       </div>
+               
+    
+   
+     </body>      
+     
+   
+  
+   
+   </html>  
+                                      
+                                            
+                           
+                               
+                               
         
-            <p>A alimentação saudável e equilibrada, rica em vitaminas e minerais, acompanhada da prática de atividade física regular, pode trazer diversos benefícios para a saúde, como melhor controle do peso, melhora no rendimento do trabalho, aumento da memória e da concentração, fortalecimento do sistema imunológico e prevenção de doenças.</p>
-            <p>Assim, para garantir esses benefícios, é importante que a pessoa consuma bastante água durante o dia, evite doces e frituras, reduza o consumo de bebidas alcoólicas e equilibre a quantidade de carboidratos, proteínas e gorduras ao longo do dia, podendo ser interessante ter o acompanhamento do nutricionista para garantir que todos as vitaminas e minerais essenciais para ao bom funcionamento do corpo estejam sendo consumidos.</p>
-            <img src="https://static.tuasaude.com/media/article/kd/yb/alimentacao-e-saude_40645_l.jpg">
-            <p>Assim, alguns dos principais benefícios da alimentação saudável são:</p>
-            <ol>
-                    <li ::marker>
-                    <strong>Garante mais energia, </strong>
-                    para realizar as atividades do dia a dia e mais disposição para praticar atividade física;
-                    </li>
-                    <br>
-                    <li>
-                    <strong>Previne doenças infecciosas, </strong>
-                    já que uma a alimentação saudável e equilibrada é capaz de promover a melhora da função do sistema imunológico, ajudando a prevenir e combater infecções de forma mais eficaz;
-                    </li>
-                    <br>
-                    <li>
-                    <strong>Diminui o risco de doenças crônicas, </strong>
-                    como doenças cardíacas e diabetes, por exemplo, já que a alimentação rica em vitaminas, minerais e fibras podem ajudar a regular os níveis de colesterol e de açúcar no sangue, prevenindo doenças;
-                    </li>
-                    <br>
-                    <li>
-                    <strong>Promove o crescimento e a renovação dos tecidos, </strong>
-                    principalmente dos ossos, da pele e dos músculos, e, por isso, tem papel essencial no desenvolvimento da criança e no processo de ganho de massa muscular e emagrecimento;
-                    </li>
-                    <br>
-                    <li>
-                    <strong>Melhora o rendimento e a concentração, </strong>
-                    pois favorece o bom funcionamento da memória e de todo o sistema nervoso;
-                    </li>
-            </ol>
-        </center>
-            </form>
-    </main>
-</body>
-</html>
+   
+                               
+                               
+                       
+
+                           
+                        
+                                                              
+                                                                      
+                     
+                            
