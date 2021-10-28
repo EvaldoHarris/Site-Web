@@ -1,14 +1,16 @@
-img{
+img {
     width: 70%;
 }
-li,p{
+
+li, p {
     width: 100%;
     font-size: 100%;
 }
 
-h1{
+h1 {
     margin-top: auto;
 }
+
 form{
     font-size: 120%;
     margin: auto;
@@ -18,14 +20,17 @@ form{
     padding: 5rem;
     
 }
+
 #menu ul {
     padding:0px;
     margin-top: 0px;
     background-color:#EDEDED;
     list-style:none;
-    font-size: 150%;
+    font-size: 140%;
 }
+
 #menu ul li { display: inline; }
+
 #menu ul li a {
     padding: 10px 10px;
     display: inline-block;
@@ -46,6 +51,24 @@ form{
 }
 
 a img {
-    height: 60px;
+    height: 100px;
+    width: 120px;
+}
+
+strong img {
+    height: 100px;
+    width: 70px;
+}
+
+b img {
+    height: 100px;
     width: 60px;
+}
+
+li img {
+    height: 35px;
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+    float: left
 }
