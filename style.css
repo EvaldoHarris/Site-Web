@@ -3,8 +3,18 @@ img {
 }
 
 li, p {
+    text-align: justify;
     width: 100%;
-    font-size: 100%;
+    font-size: 100%;    
+}
+
+p {
+    margin-bottom: 0 
+ }
+   
+p {
+    text-indent: 1.5em;
+    margin-top: 0 
 }
 
 h1 {
@@ -70,7 +80,7 @@ li img {
     width: 30px;
     margin-left: 10px;
     margin-top: 5px;
-    float: left
+    float: left;
 }
 
 .carousel-inner {
