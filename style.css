@@ -1,5 +1,7 @@
 img {
     width: 70%;
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
 li, p {
@@ -85,4 +87,36 @@ li img {
 
 .carousel-inner {
     box-shadow:-2px 6px 43px -16px rgba(0,0,0,0.75)
+}
+
+body{
+    overflow-y: scroll;
+    height: 100%;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #a82a2a;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #d86f6f;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #f29494;
+}
+
+#fonte{
+    font-size: 125%;
+    color: #a82a2a;
+    font-family: cursive;
+}
+
+#Title{
+    margin-bottom: 30px;
 }
