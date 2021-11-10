@@ -99,7 +99,7 @@ body{
 }
 
 ::-webkit-scrollbar-track{
-    background-color: #a82a2a;
+    background-color: #f5a8a8;
 }
 
 ::-webkit-scrollbar-thumb{
@@ -108,7 +108,7 @@ body{
 }
 
 ::-webkit-scrollbar-thumb:hover{
-    background-color: #f29494;
+    background-color: #d87f7f;
 }
 
 #fonte{
