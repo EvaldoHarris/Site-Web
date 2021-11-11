@@ -120,3 +120,66 @@ body{
 #Title{
     margin-bottom: 30px;
 }
+#btnIMC {
+    width: 15%;
+    margin-top: 15%;
+    margin-left: -42%;
+    position: fixed;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #101bb1;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+#btnIMC:hover {
+    background-color: #170e8a
+}
+  
+#btnIMC:active {
+    background-color: #101bb1;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+#imgIMC{
+    height: 100%;
+}
+#idade{
+    position: fixed;
+    margin-top: 9.5%;
+    margin-left: -46%;
+    width: 5%;
+}
+#altura{
+    position: fixed;
+    margin-top: 9.5%;
+    margin-left: -29%;
+    width: 5%;
+}
+#peso{
+    position: fixed;
+    margin-top: 9.5%;
+    margin-left: -11.2%;
+    width: 5%;
+}
+#divIMC{
+    position: fixed;
+}
+#man{
+    position: fixed;
+    width: 5%;
+    margin-top: 9.5%;
+    margin-left: -65%;
+}
+#woman{
+    position: fixed;
+    width: 5%;
+    margin-top: 9.5%;
+    margin-left: -60%;
+}

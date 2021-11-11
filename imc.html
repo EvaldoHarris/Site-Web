@@ -8,13 +8,14 @@
     <link rel="shortcut icon" type="imagex/png" href="./imc-icon.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script type="text/javascript"  src='imc.js'></script>
     <title>IMC</title>
 </head>
 <body background="https://i1.wp.com/help.grandchef.com.br/wp-content/uploads/2020/09/Alimentac%CC%A7a%CC%83o.jpg?resize=582%2C387&ssl=1">
     <center>
     <nav id="menu">
         <ul>
-            <li><img src='./site-logo.png' alt=”logo-doces”></li>
+            <li><img src='images/site-logo.png' alt=”logo-doces”></li>
             <li><a href="./index.html">Home</a></li>
             <li><a href="./sucos.html">Sucos</a></li>
             <li><a href="./doces.html">Doces</a></li>
@@ -22,8 +23,24 @@
             <li><a href="./imc.html">IMC</a></li>
         </ul>
     </nav>
-    </center>
-    <div class="yz-widget" data-calculator-type="bmi" data-language="pt" data-unit-system="metric" data-background-color="#EEEEEE" data-text-color="#212121" data-primary-color="#03A9F4" data-alternate-background-color="#FFFFFF" data-alternate-text-color="#FFFFFF" data-secondary-color="#FFC107">
-        <span class="yz-copyright">Powered by <a href="https://www.yazio.com/pt/calculadora-imc">YAZIO</a></span></div>
-<script src="https://widget.yazio.com/calculator.js" async></script>
+    
+    
+    <!--<div class="yz-widget" data-calculator-type="bmi" data-language="pt" data-unit-system="metric" data-background-color="#EEEEEE" data-text-color="#212121" data-primary-color="#03A9F4" data-alternate-background-color="#FFFFFF" data-alternate-text-color="#FFFFFF" data-secondary-color="#FFC107">
+        <span class="yz-copyright">Powered by <a href="https://www.yazio.com/pt/calculadora-imc">YAZIO</a></span>
+    </div>
+    <script src="https://widget.yazio.com/calculator.js" async></script>
+    -->
+    <div id="divIMC">
+        <img id="imgIMC" src="images/img_imc.png"/>
+        <button id="btnIMC">Calcule seu IMC</button>
+        <input id="idade" type="number" placeholder="21">
+        <input id="altura" type="number" placeholder="170 cm">
+        <input id="peso" type="number" placeholder="69 kg">
+        <!--onmouseout="this.src='/images/user.png';" onmouseover="this.src='images/boss.png';"-->
+        <!--onmouseout="this.src='/images/woman.png';" onmouseover="this.src='images/businesswoman.png';"-->
+        <img src="/images/user.png" id="man" onclick="man()"  />
+        <img  id="woman" src="/images/woman.png" onclick="woman()" />
+    </div>
+</center>
+
 </body>
