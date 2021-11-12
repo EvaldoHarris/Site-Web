@@ -1,13 +1,13 @@
 function man()
 {
-    document.getElementById("woman").src="/images/woman.png"
+    document.getElementById("woman").src="images/woman.png"
     document.getElementById("man").src="images/boss.png"
     document.getElementById("sexo").value = "Homem";
     console.log("entrou")
 }
 function woman()
 {
-    document.getElementById("man").src="/images/user.png"
+    document.getElementById("man").src="images/user.png"
     document.getElementById("woman").src="images/businesswoman.png"
     document.getElementById("sexo").value = "Mulher";
     console.log("entrou")
