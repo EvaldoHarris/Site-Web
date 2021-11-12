@@ -183,3 +183,32 @@ body{
     margin-top: 9.5%;
     margin-left: -60%;
 }
+#sexo{
+    position: fixed;
+    width: 5%;
+    margin-top: 15%;
+    margin-left: -62.5%;
+}
+#resultado{
+    position: fixed;
+    margin-top: 25%;
+    margin-left: -60%;
+    font-size: 200%;
+    width: 50%;
+}
+input { 
+    text-align: center; 
+    font-weight: bold;
+}
+.abaixo{
+    background-color:#f2ff38;
+    color: black;
+}
+.normal{
+    background-color:#47d12b;
+    color: white;
+}
+.acima{
+    background-color:#d12b2b;
+    color: white;
+}
