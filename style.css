@@ -132,18 +132,20 @@ body{
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: #101bb1;
+    background-color: #d86f6f;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px #999;
+    box-shadow: 0 5px #999;
+    transition: 0.3s;
   }
   
 #btnIMC:hover {
-    background-color: #170e8a
+    background-color: #be5f5f;
+    transition: 0.3s;
 }
   
 #btnIMC:active {
-    background-color: #101bb1;
+    background-color: #d86f6f;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
