@@ -11,9 +11,9 @@ li, p {
 }
 
 p {
-    margin-bottom: 0 
+    margin-bottom: 0 ;
+    
  }
-   
 p {
     text-indent: 1.5em;
     margin-top: 0 
@@ -213,4 +213,12 @@ input {
 .acima{
     background-color:#d12b2b;
     color: white;
+}
+div,button{
+    font-size: 1.5vw;
+	margin: 0;
+}
+#Title,img{
+    font-size: 5vw;
+	margin: 0;
 }
