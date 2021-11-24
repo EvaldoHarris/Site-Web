@@ -155,14 +155,14 @@ body{
 #idade{
     position: fixed;
     margin-top: 9.5%;
-    margin-left: -46%;
-    width: 5%;
+    margin-left: -46.5%;
+    width: 6%;
 }
 #altura{
     position: fixed;
     margin-top: 9.5%;
     margin-left: -29%;
-    width: 5%;
+    width: 6%;
 }
 #peso{
     position: fixed;
@@ -187,16 +187,16 @@ body{
 }
 #sexo{
     position: fixed;
-    width: 5%;
+    width: 7%;
     margin-top: 15%;
-    margin-left: -62.5%;
+    margin-left: -63.5%;
 }
 #resultado{
     position: fixed;
     margin-top: 25%;
-    margin-left: -60%;
+    margin-left: -70%;
     font-size: 200%;
-    width: 50%;
+    width: 70%;
 }
 input { 
     text-align: center; 
